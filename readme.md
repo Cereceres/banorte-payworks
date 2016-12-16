@@ -1,21 +1,20 @@
 <img src="http://res.cloudinary.com/cloudinary4yopping/image/upload/v1458266051/logos/futurecommerce.png" alt="Futurecommerce" align="right" width="250" height="103"/>
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com)
-Banorte Payworks for Node.js
+Banorte Payworks2 for Node.js
 ================================
-
-[![Build Status](https://travis-ci.org/4yopping/banorte-payworks.svg?branch=master)](https://travis-ci.org/4yopping/banorte-payworks)
+[![Build Status](https://travis-ci.org/Cereceres/banorte-payworks2.svg?branch=master)](https://travis-ci.org/Cereceres/banorte-payworks2)
 
 ## Install
 
 ```bash
-$ npm install banorte-payworks --save
+$ npm install banorte-payworks2 --save
 ```
 
 ## Usage
 
 ```js
-const Payworks = require('banorte-payworks')
+const Payworks = require('banorte-payworks2')
 const payworks = new Payworks({
   username: 'b4113901',
   password: 'b4113901',
@@ -87,7 +86,7 @@ payworks.preAuth({
 
 ## API Documentation
 
-Please read this [extended documentation](http://4yopping.github.io/banorte-payworks).
+Please read this [extended documentation](http://4yopping.github.io/banorte-payworks2).
 
 ### Payworks
 
@@ -116,6 +115,7 @@ Please read this [extended documentation](http://4yopping.github.io/banorte-payw
 ##### payworks.on(\<string\> eventName)
 
 The payworks instance has a method to listen general events when a request has been finished.
+The event emitter used is eventEmitter2, then you can use wild cards and other features from that module.
 
 `[methodName].approved`
 
