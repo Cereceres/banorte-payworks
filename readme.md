@@ -115,7 +115,7 @@ Please read this [extended documentation](http://4yopping.github.io/banorte-payw
 ##### payworks.on(\<string\> eventName)
 
 The payworks instance has a method to listen general events when a request has been finished.
-The event emitter used is eventEmitter2, then you can use wild cards and other features from that module.
+The event emitter used is eventEmitter2, then you can use wildcard and other features from that module.
 
 `[methodName].approved`
 
